@@ -7,11 +7,11 @@ import org.springframework.web.client.RestClient;
 
 import java.util.List;
 
-@Service
+//@Service
 public class PostService {
     private final List<Post> posts;
 
-    private RestClient restClient;
+    private final RestClient restClient;
     public PostService(RestClient restClient) {
         this.posts = List.of(new Post(1,1,"Hello world","This is my first post"));
         this.restClient = restClient;

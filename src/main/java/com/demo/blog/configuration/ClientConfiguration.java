@@ -7,10 +7,10 @@ import org.springframework.web.client.RestClient;
 @Configuration
 public class ClientConfiguration {
 
-    @Bean
-    RestClient restClient(RestClient.Builder builder) {
-        return builder
-                .baseUrl("https://jsonplaceholder.typicode.com/")
-                .build();
-    }
+//    @Bean
+//    RestClient restClient(RestClient.Builder builder) {
+//        return builder
+//                .baseUrl("https://jsonplaceholder.typicode.com/")
+//                .build();
+//    }
 }
